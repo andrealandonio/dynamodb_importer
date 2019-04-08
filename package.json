@@ -1,0 +1,30 @@
+{
+  "name": "dynamodb_importer",
+  "description": "A simple AWS DynamoDB importer from a file to a DynamoDB table",
+  "author": {
+    "name": "Andrea Landonio",
+    "email": "landonio.andrea@gmail.com",
+    "url": "http://www.andrealandonio.it"
+  },
+  "keywords": [
+    "node",
+    "dynamoDB",
+    "importer",
+    "aws"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.153.0",
+    "minimist": "^1.2.0",
+    "csv-parse": "^2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrealandonio/dynamodb_importer.git"
+  },
+  "scripts": {
+    "test": "node index.js --file=./MyFile.csv --table=MyTable --region=eu-west-1"
+  },
+}
