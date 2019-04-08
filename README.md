@@ -26,4 +26,4 @@ You can provide 3 input parameters:
 
 * file: the file with the list of row to import (*required*)
 * table: the target DynamoDB table (*required*)
-* region: the AWS region of target DynamoDB table
+* region: the AWS region of target DynamoDB table (otherwise 'eu-west-1' will be used)
