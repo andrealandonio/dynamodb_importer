@@ -18,7 +18,7 @@
   "dependencies": {
     "aws-sdk": "^2.153.0",
     "minimist": ">=1.2.3",
-    "csv-parse": "^2.5.0"
+    "csv-parse": ">=4.4.6"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,5 @@
   },
   "scripts": {
     "test": "node index.js --file=./MyFile.csv --table=MyTable --region=eu-west-1"
-  },
+  }
 }
