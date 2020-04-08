@@ -17,7 +17,7 @@
   "license": "MIT",
   "dependencies": {
     "aws-sdk": "^2.153.0",
-    "minimist": "^1.2.0",
+    "minimist": ">=1.2.3",
     "csv-parse": "^2.5.0"
   },
   "repository": {
