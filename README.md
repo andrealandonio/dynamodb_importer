@@ -8,7 +8,7 @@ Using the AWS credentials in your machine the program read a file (composed by a
 
 ## Install
 
-After download the repo, just run:
+After downloading the repo, just run:
 
 ```
 npm install
@@ -16,7 +16,7 @@ npm install
 
 ## Use
 
-After download all the dependencies, just use:
+After downloading all the dependencies, just use:
 
 ```
 node index.js --file=./<your_file>.csv --table=<your_dynamodb_table> --region=<your_aws_region>
