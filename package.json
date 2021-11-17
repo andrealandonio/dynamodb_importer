@@ -16,7 +16,7 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "aws-sdk": "^2.153.0",
+    "aws-sdk": ">=2.814.0",
     "minimist": ">=1.2.3",
     "csv-parse": ">=4.4.6"
   },
